@@ -24,6 +24,9 @@ Para aplicar las migraciones y crear la base de datos:
 
 1. Abre la Consola del Administrador de Paquetes
 2. Ejecuta:
+```
+update-database
+```
 
 #### En línea de comandos:
 
