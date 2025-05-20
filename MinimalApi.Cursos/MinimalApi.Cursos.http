@@ -1,0 +1,14 @@
+@MinimalApi.Cursos_HostAddress = http://localhost:5274
+# @MinimalApi.Cursos_HostAddress = https://localhost:7288
+
+GET {{MinimalApi.Cursos_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+GET {{MinimalApi.Cursos_HostAddress}}/cursos
+
+### Get By Id
+GET {{MinimalApi.Cursos_HostAddress}}/cursos/4b5e-781f-9f81-42572c1732c6
+
+### Delete Curso
+DELETE {{MinimalApi.Cursos_HostAddress}}/cursos/0196eb33-4b5e-781f-9f81-42572c1732c6
